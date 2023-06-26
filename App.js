@@ -21,7 +21,7 @@ export default function App() {
         const response = await api.get('/api/SenacCoinMovimentacao');
   
         setMovimentacoes(response.data);
-        console.log(response.data);
+        // console.log(response.data);
     }
   
     getSenacCoin();
